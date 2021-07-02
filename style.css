@@ -1,0 +1,67 @@
+/* Universal Styling */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    text-decoration: none;
+}
+
+html {
+    scroll-behavior: smooth;
+}
+
+/* Navigation Styling */
+nav {
+    position: fixed;
+	z-index: 10;
+	left: 0;
+	right: 0;
+	top: 0;
+	font-family: 'Times New Roman', Times, serif;
+}
+
+nav .logo {
+    padding: 10px 25px;
+    font-size: 50px;
+    float: left;
+    display: flex;
+	align-items: center;
+    color: white;
+    font-weight: bold;
+}
+
+nav .links {
+    display: flex;
+    padding-top: 25px;
+    float: right;
+    align-items: center;
+}
+
+nav .links li {
+    list-style: none;
+}
+
+nav .links a {
+    display: block;
+    padding-right: 25px;
+    font-size: 25px;
+    color: white;
+}
+
+/* Footer Styling */
+footer {
+    left: 0;
+    right: 0;
+    bottom: 0;
+    position: fixed;
+    background-color: black;
+    text-align: center;
+    font-family: 'Times New Roman', Times, serif;
+}
+
+footer .logo {
+    color: white;
+    font-weight: bold;
+    font-size: 50px;
+    
+}
